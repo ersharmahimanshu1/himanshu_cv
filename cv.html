@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Himanshu Sharma - CV</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0; padding: 0;
+      background: #f5f7fa;
+      color: #333;
+      display: flex;
+      min-height: 100vh;
+    }
+    .sidebar {
+      background: #1e3a8a;
+      color: white;
+      width: 280px;
+      padding: 30px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 25px;
+    }
+    .sidebar h1 {
+      margin: 0 0 5px 0;
+      font-weight: 700;
+      font-size: 28px;
+    }
+    .sidebar h2 {
+      margin: 0 0 15px 0;
+      font-weight: 400;
+      font-size: 16px;
+      color: #a5b4fc;
+    }
+    .contact, .links, .skills {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .contact a, .links a {
+      color: #a5b4fc;
+      text-decoration: none;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .skills ul li {
+      margin-bottom: 8px;
+      background: #3b82f6;
+      padding: 6px 12px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .main {
+      flex-grow: 1;
+      background: white;
+      padding: 40px 50px;
+      box-shadow: -4px 0 15px rgba(0,0,0,0.05);
+    }
+    .section-title {
+      font-weight: 700;
+      color: #1e3a8a;
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 6px;
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+    .objective {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    .job, .education, .certification {
+      margin-bottom: 25px;
+    }
+    .job-title {
+      font-weight: 700;
+      font-size: 16px;
+      color: #111827;
+    }
+    .job-tech {
+      font-style: italic;
+      font-size: 13px;
+      color: #6b7280;
+      margin-bottom: 6px;
+    }
+    .job-desc ul {
+      margin: 0;
+      padding-left: 18px;
+      font-size: 14px;
+      color: #374151;
+    }
+    .edu-degree, .cert-name {
+      font-weight: 600;
+      font-size: 15px;
+      color: #111827;
+    }
+    .edu-institute, .cert-details {
+      font-size: 13px;
+      color: #4b5563;
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h1>Himanshu Sharma</h1>
+    <h2>Software Engineer</h2>
+    <div class="contact">
+      <div>📞 +91-9528618628</div>
+      <div>📧 <a href="mailto:Ersharmahimanshu1@gmail.com">Ersharmahimanshu1@gmail.com</a></div>
+    </div>
+    <div class="links">
+      <div>🔗 <a href="https://linkedin.com/in/dev-himanshu-sharma" target="_blank">LinkedIn</a></div>
+      <div>🐙 <a href="https://github.com/ersharmahimanshu1" target="_blank">GitHub</a></div>
+    </div>
+    <div class="skills">
+      <div class="section-title" style="color:#fff; border-color:#a5b4fc;">Skills</div>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C (OOP)</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React</li>
+        <li>Django</li>
+        <li>Tkinter</li>
+        <li>MySQL</li>
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="main">
+    <section class="objective-section">
+      <div class="section-title">Objective</div>
+      <p class="objective">
+        Energetic and detail-oriented B.Tech Computer Science graduate with strong skills in Python, Java, C, and modern web technologies. Experienced in building scalable software solutions, database design, and intuitive user interfaces. Passionate about leveraging skills in AI, machine learning, and cloud computing to deliver impactful projects. Seeking a challenging software engineering role to contribute to innovative products and grow in a collaborative environment.
+      </p>
+    </section>
+
+    <section class="experience-section">
+      <div class="section-title">Experience & Projects</div>
+      
+      <div class="job">
+        <div class="job-title">Hotel Management System</div>
+        <div class="job-tech">Python, Tkinter, MySQL</div>
+        <div class="job-desc">
+          <ul>
+            <li>Developed application handling bookings, check-in/out, and billing.</li>
+            <li>Designed intuitive GUIs, integrated MySQL for customer & room data.</li>
+            <li>Implemented CRUD operations & real-time room availability.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="job">
+        <div class="job-title">Weather Forecast Web App</div>
+        <div class="job-tech">HTML, CSS, JavaScript, React</div>
+        <div class="job-desc">
+          <ul>
+            <li>Built responsive weather app fetching data from OpenWeatherMap API.</li>
+            <li>Included city search, temperature display, sleek UI design.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section">
+      <div class="section-title">Education</div>
+
+      <div class="education">
+        <div class="edu-degree">B.Tech in Computer Science</div>
+        <div class="edu-institute">IIMT Engineering College, Meerut | 2019-2023</div>
+      </div>
+
+      <div class="education">
+        <div class="edu-degree">Intermediate (PCM)</div>
+        <div class="edu-institute">MDS Inter College, Meerut | 2018-2019</div>
+      </div>
+
+      <div class="education">
+        <div class="edu-degree">High School</div>
+        <div class="edu-institute">MDS Inter College, Meerut | 2016-2017</div>
+      </div>
+    </section>
+
+    <section class="certifications-section">
+      <div class="section-title">Certifications</div>
+      <div class="certification">
+        <div class="cert-name">Web Development Course – Career Milaap (June 2021)</div>
+        <div class="cert-details">Covered HTML, CSS, JavaScript, React, REST APIs, Git & GitHub.</div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
